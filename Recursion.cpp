@@ -15,7 +15,23 @@ int main(){
 
 
 // print linearly from 1 to n.
-#include<iostream>
+/*#include<iostream>
+using namespace std;
+void pnum(int i, int n){
+    if(i>n)return;
+    cout<<i<<endl;
+    pnum(i+1, n);
+}
+int main(){
+    int i=1,n;
+    cin>>n;
+    pnum(i, n);
+    return 0;
+}*/
+
+
+// print linearly from n to 1.
+/*#include<iostream>
 using namespace std;
 void pnum(int i){
     if(i<1)return;
@@ -27,4 +43,4 @@ int main(){
     cin>>n;
     pnum(n);
     return 0;
-}
+}*/
