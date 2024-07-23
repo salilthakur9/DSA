@@ -1,4 +1,4 @@
-// print name as number of times we want using recursion.
+//1. print name as number of times we want using recursion.
 /*#include<iostream>
 using namespace std;
 void pname(int i, int n){
@@ -14,7 +14,7 @@ int main(){
 }*/
 
 
-// print linearly from 1 to n.
+//2. print linearly from 1 to n.
 /*#include<iostream>
 using namespace std;
 void pnum(int i, int n){
@@ -30,7 +30,7 @@ int main(){
 }*/
 
 
-// print linearly from n to 1.
+//3. print linearly from n to 1.
 /*#include<iostream>
 using namespace std;
 void pnum(int i){
@@ -46,7 +46,7 @@ int main(){
 }*/
 
 
-// print 1 to n linearly but using backtrack.
+//4. print 1 to n linearly but using backtrack.
 /*#include<iostream>
 using namespace std;
 void pnum(int i){
@@ -59,4 +59,18 @@ int main(){
     cin>>n;
     pnum(n);
     return 0;
+}*/
+
+
+//5. print n to 1 linearly but using backtrack.
+/*#include<iostream>
+using namespace std;
+void pnum(int i){
+    if(i<1)return;
+    cout<<i<<endl;
+    pnum(i-1);
+}
+int main(){
+    int n;cin>>n;
+    pnum(n);return 0;
 }*/
