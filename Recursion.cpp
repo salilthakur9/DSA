@@ -44,3 +44,19 @@ int main(){
     pnum(n);
     return 0;
 }*/
+
+
+// print 1 to n linearly but using backtrack.
+/*#include<iostream>
+using namespace std;
+void pnum(int i){
+    if(i<1)return;
+    pnum(i-1);
+    cout<<i<<endl;
+}
+int main(){
+    int n;
+    cin>>n;
+    pnum(n);
+    return 0;
+}*/
