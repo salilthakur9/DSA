@@ -76,8 +76,8 @@ int main(){
 }*/
 
 
-
-#include<iostream>
+//6. print sum of n numbers using parameterized recursion.
+/*#include<iostream>
 using namespace std;
 void func(int i,int sum){
     if(i<1){
@@ -90,5 +90,21 @@ int main(){
     int i;cin>>i;
     func(i,0);
     return 0;
+}*/
 
+
+//functional recursion sum of N numbers.
+/*#include<iostream>
+using namespace std;
+int func(int n){
+    if(n==0)return 0;
+    return n+func(n-1);
 }
+int main(){
+    int n;
+    cin>>n;
+    cout<<func(n);
+}*/
+
+
+
