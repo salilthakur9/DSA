@@ -93,7 +93,7 @@ int main(){
 }*/
 
 
-//functional recursion sum of N numbers.
+//7. functional recursion sum of N numbers.
 /*#include<iostream>
 using namespace std;
 int func(int n){
@@ -107,7 +107,7 @@ int main(){
 }*/
 
 
-//functional recursion factorial of input number.
+//8. functional recursion factorial of input number.
 /*#include<iostream>
 using namespace std;
 int func(int n){
@@ -121,7 +121,7 @@ int main(){
 }*/
 
 
-//using recursion reverse an array.
+//9. using recursion reverse an array.
 /*#include<iostream>
 using namespace std;
 void func(int arr[],int l,int r){
@@ -144,7 +144,7 @@ int main(){
 }*/
 
 
-
+//10.
 /*#include<iostream>
 using namespace std;
 void func(int arr[], int l, int r){
@@ -163,5 +163,20 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
+    return 0;
+}*/
+
+
+//11. check palandrome through functional recursion.
+/*#include<iostream>
+using namespace std;
+bool func(int i, string& s){
+    if(i>= s.size())return true;
+    if(s[i] != s[s.size()-i-1])return false;
+    func(i+1,s);
+}
+int main(){
+    string s="madam";
+    cout<<func(0, s);
     return 0;
 }*/
