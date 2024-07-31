@@ -180,3 +180,18 @@ int main(){
     cout<<func(0, s);
     return 0;
 }*/
+
+
+//12. print the nth number of fibonacci series.
+/*#include<iostream>
+using namespace std;
+int func(int n){
+    if(n<=1)return n;
+    int last=func(n-1);
+    int slast=func(n-2);
+    return last+slast;
+}
+int main(){
+    cout<<func(3);
+    return 0;
+}*/
