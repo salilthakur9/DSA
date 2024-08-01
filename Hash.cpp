@@ -25,6 +25,7 @@ int main(){
 }*/
 
 
+//2. hash array to check the occurence of the element or number
 /*#include<iostream>
 using namespace std;
 int main(){
