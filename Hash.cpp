@@ -88,7 +88,7 @@ int main(){
 
 
 // 4. use iterator in ques 3
-/*#include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
     int n;
@@ -115,5 +115,5 @@ int main(){
         cout<<m[num]<<endl;
     }
     return 0;
-}*/
+}
 //changed directory
